@@ -1,0 +1,48 @@
+.item
+{
+    background-color: aquamarine;
+    margin: 1em;
+    padding: 1em;
+    grid-column: span 4;
+}
+
+@media (min-width: 900px)
+{
+    .item_content
+    {
+        grid-column: span 3;
+    }
+
+    .item_sidebar
+    {
+        grid-column: span 1;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    .item_content
+    {
+        grid-column: span 4;
+    }
+
+    .item_sidebar
+    {
+        grid-column: span 4;
+    }
+}
+
+@media ((min-width: 500px) and (max-width: 900px))
+{
+    .item_content
+    {
+        grid-column: span 2;
+    }
+
+    .item_sidebar
+    {
+        grid-column: span 2;
+    }
+
+}
