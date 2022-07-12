@@ -1,0 +1,6 @@
+span{color: gray}
+
+a{color:blue}
+a:hover{color:rgb(5, 5, 82)}
+
+span a{color:gray}

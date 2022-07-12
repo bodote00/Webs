@@ -1,0 +1,6 @@
+p{color:darkgray;}
+
+p:nth-child(2){color: lightblue;}
+
+p::first-letter{font-weight: bold;}
+
