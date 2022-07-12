@@ -1,0 +1,28 @@
+.letter--changeBG
+{
+    background-color: blue;
+}
+
+.d-flex
+{
+    display: flex;
+}
+
+.wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    border: 0.1em solid black; 
+    padding: 1em;
+}
+
+.letter
+{
+    border: 0.1em solid black;
+    padding: 1em;
+}
+
+.letter.background-blue
+{
+    color: white;
+}

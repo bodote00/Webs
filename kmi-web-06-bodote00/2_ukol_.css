@@ -1,0 +1,35 @@
+.myArticle
+{
+    display: flex;
+    width: 60ch;
+}
+
+.myArticle__style
+{
+    border: 0.1em solid blue;
+    margin: 1em;
+    padding: 1em;
+}
+
+.myArticle__style--reverse
+{
+    flex-direction: row-reverse;
+}
+
+article img
+{
+    align-self: center;
+}
+
+.space_between
+{
+    margin-left: 1em;
+}
+
+p
+{
+    margin: 0em;
+    padding-top: 0.3em;
+}
+
+.myArticle__name{margin: 0em;}

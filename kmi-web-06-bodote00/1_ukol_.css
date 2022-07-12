@@ -1,0 +1,20 @@
+.wrapper
+{
+    display: flex;
+    border: 0.1em solid black;
+    width: 75 em;
+    height: 100%;
+}
+
+.letter
+{
+    flex: 1;
+    border: 0.1em solid black;
+    padding: 1em;
+    text-align: center;
+}
+
+.letter_A
+{
+    flex: 2;
+}
