@@ -1,0 +1,47 @@
+.card 
+{
+  padding:1em;
+  border: 1px solid;
+  width: 60ch;
+  margin: 1em auto;
+  color: #303030;
+}
+
+p
+{
+  padding: 0em;
+}
+
+.card2 
+{
+  background-color: lightblue;
+  border-color: black;
+  padding: 1em;
+}
+
+.card1, .card3
+{
+  border-color: darkgreen;
+  background-color: lightgreen;
+}
+
+.card span a:hover 
+{
+  color: black;  
+}
+
+
+span /*>*/ a {
+  color: green;
+  padding: 0em 0.4em;  
+}
+
+.highlight
+{
+  background-color: yellow;
+}
+
+.highlight2
+{
+  background-color: red;
+}

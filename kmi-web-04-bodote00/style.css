@@ -1,0 +1,30 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.article
+{
+    margin: 1em; /*margin je vonkajšia hranica (za okrajom smerom von)*/
+    padding: 0em 1em; /*padding je vnútorná hranica (od okraja smerom dovnútra)*/
+    padding-top: 0.5em; /*padding od hora toho celkonvého rámčeku*/
+    border: 1px solid mediumvioletred;
+}
+
+.title_Type
+{
+    border: 1px solid mediumvioletred;
+    display: inline-block;
+    padding: 0.5em 1em; /*0.5 je padding hore dole, 1 po bokoch*/
+    margin-bottom: 0.5em;
+}
+
+.design_1
+{
+    color: mediumvioletred;
+    background-color: white;
+}
+
+.design_2
+{
+    color: white;
+    background-color: mediumvioletred;
+}
+
