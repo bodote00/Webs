@@ -1,0 +1,9 @@
+h2{color:gray}
+article
+{
+    border: 1px solid lightblue;
+    border-left-width: 0.75em;
+    width: 20em;
+    padding: 1em;
+    
+}

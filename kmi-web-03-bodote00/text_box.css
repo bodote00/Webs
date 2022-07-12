@@ -1,0 +1,20 @@
+
+h2{color: gray}
+
+/*.text-box
+{
+    border: 0.1em dashed lightblue;
+    display: inline-block;
+    padding: 0.1em;
+    margin: 2px;
+
+}*/
+
+.text-box
+{
+    border: 0.1em dashed lightblue;
+    display: block;
+    padding: 0.1em;
+    margin: 2px;
+
+}
